@@ -2,7 +2,7 @@
 #include "System.h"
 #include "XorString.hpp"
 
-//이렇게 cpp 파일에 정의를 해줘야 스태틱 변수들이 생성된다.
+// This way, static variables are created only when they are defined in the cpp file.
 Rust::HackSetting Rust::Globals::hack_setting;
 Rust::GameState Rust::Globals::game_state;
 Rust::SystemData Rust::Globals::system_data;
